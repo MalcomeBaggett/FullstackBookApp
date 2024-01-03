@@ -15,3 +15,13 @@
         </div>
     </div>
 </template>
+
+<script>
+import TextInput from "./forms/TextInput.vue"
+export default {
+    name: 'login',
+    components: {
+        TextInput
+    }
+}
+</script>
